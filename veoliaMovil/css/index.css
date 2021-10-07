@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+.contenedorPrincipal{
+    width: 100%;
+    background-color: #3c4043;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+}
+.logo img{
+    width: 80%;
+    margin: 20px 0px;
+}
+
+form{
+    width: 100%;
+}
+
+.contenedorFormulario{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid #636c79;
+    flex-direction: column;
+    align-items: center;
+    background-color: #363f4b;
+}
+
+form fieldset img {
+    width: 40%;
+}
+
+form fieldset .labels{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;  
+}
+
+form fieldset .inputs{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #363f4b;
+    color: white;
+}
+
+form fieldset .botonIniciar{
+    background-color: #636c79;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s ease all;
+}
+
+form fieldset .botonIniciar:active{
+    background-color: rgb(142, 155, 228);
+    
+}
+ 
+h1{
+    margin-bottom: 20px;
+    color:white;
+}
+
+.alerta{
+    display: none;
+    background-color: rgb(240, 129, 129);
+    color: black;
+    font-size: 13px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.alerta.active{
+    display:block;
+}
